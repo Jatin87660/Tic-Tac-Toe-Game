@@ -1,5 +1,3 @@
-# Tic-Tac-Toe-Game
-
 # Tic Tac Toe Game with Minimax AI
 This is a simple web-based Tic Tac Toe game where the player competes against an unbeatable AI powered by the Minimax algorithm.
 
