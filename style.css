@@ -1,0 +1,71 @@
+td {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background-color 0.3s ease;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 2% auto; 
+    position: relative;
+    top: 100px;
+}
+
+
+table tr:first-child td {
+    border-top: none;
+}
+table tr:last-child td {
+    border-bottom: none;
+}
+table tr td:first-child {
+    border-left: none;
+}
+table tr td:last-child {
+    border-right: none;
+}
+
+
+.endgame {
+    display: none;
+    width: 300px;
+    background-color: rgb(12, 78, 96);
+    color: white;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn {
+    margin: 150px auto 0;
+    display: block;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3489db;
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #226bb3;
+}
